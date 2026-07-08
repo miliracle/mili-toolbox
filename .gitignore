@@ -1,0 +1,18 @@
+# herdr runtime artifacts (regenerated at runtime; never commit)
+home/.config/herdr/*.log
+home/.config/herdr/session.json
+home/.config/herdr/*.sock
+home/.config/herdr/release-notes.json
+
+# macOS + nix build noise
+.DS_Store
+result
+result-*
+
+# neovim swap / undo files
+*.swp
+*.swo
+*.swn
+
+# nix direnv
+.direnv/

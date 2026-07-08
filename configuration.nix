@@ -7,8 +7,8 @@
   nixpkgs.config.allowUnfree = true;
   nixpkgs.hostPlatform = "aarch64-darwin"; # use x86_64-darwin for Intel CPU
 
-  system.primaryUser = "miliracle";
-  users.users.miliracle = {
+  system.primaryUser = "ronnienguyen";
+  users.users.ronnienguyen = {
     home = "/Users/ronnienguyen";
   };
   system.stateVersion = 6;
@@ -27,7 +27,7 @@
   };
   nix-homebrew = {
     enable = true;
-    user = "kunchen";
+    user = "ronnienguyen";
   };
   homebrew = {
     enable = true;
