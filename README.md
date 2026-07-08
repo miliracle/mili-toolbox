@@ -92,6 +92,10 @@ Edit any file in the repo, then run `rebuild.sh`. It re-symlinks `~/.dotfiles` a
         └── herdr/              # herdr config
 ```
 
+## Credits
+
+Inspired by [Kun Chen's dotfiles setup](https://www.youtube.com/watch?v=5N-okeDdIuI).
+
 ## Notes
 
 - Platform is `aarch64-darwin` (Apple Silicon). Change to `x86_64-darwin` in `configuration.nix` for Intel.
